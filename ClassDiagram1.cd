@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MazeController">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYAAABCCCAAAAgIwAAESIAkIAAQABAEKIRAECGUQAg=</HashCode>
+      <FileName>Assets\Controllers\MazeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorldController">
+    <Position X="3.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQBAQAAgCAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Controllers\WorldController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIController">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgSgAAEBCAodgAAAoAIIABAhAQAB4AAAAAAA=</HashCode>
+      <FileName>Assets\Controllers\UIController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeController">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAACBAAAAAAAAAAAAIAAhAYAEAoAAEAgAAAAA=</HashCode>
+      <FileName>Assets\Controllers\TimeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze">
+    <Position X="5.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABACAAQBAAAAAAAAAAAAEAAAoAAAAAAAgAAAAAACAg=</HashCode>
+      <FileName>Assets\Model\Maze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeSolver">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgKAAAiAAACtCAARFAIAkAAhACIAAAYJAAAAAIAA=</HashCode>
+      <FileName>Assets\Model\MazeSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PriorityQueue&lt;TElement&gt;">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PriorityQueue&lt;TElement&gt;.ElementList">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Model\PriorityQueue.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAIAAAAAAAAAABAAAAAQAAAAABAAAAAAABAAQAAI=</HashCode>
+      <FileName>Assets\Model\PriorityQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tile">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Tile.TileType">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Model\Tile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAJAAAACQOEgAABkAAAAQBAAAcABEABAAQBgAAACYAE=</HashCode>
+      <FileName>Assets\Model\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
